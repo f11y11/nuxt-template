@@ -1,0 +1,7 @@
+// this could use some simplification?
+html {
+  @apply bg-white;
+  &.dark {
+    @apply bg-gray-800;
+  }
+}
